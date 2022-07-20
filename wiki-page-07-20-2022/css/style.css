@@ -1,0 +1,28 @@
+h1 {
+  color:lightblue;
+}
+body{
+  padding:50px;
+  font-family:"Helvetica";
+}
+#img1{
+  width:25%;
+  margin:50px;
+  border: 5px dotted blue;
+  padding:50px
+}
+#img2{
+  width:50%;
+  float:right;
+}
+#p1{
+  color:red;
+}
+.red-text{
+  color:lightblue;
+  padding:50px;
+  border: 5px ridge blue;
+}
+.padding {
+  padding:50px;
+}
