@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+
+
+
+
+
+body{
+  background-color:pink;
+  margin:0;
+
+}
+
+
+
+header {
+    background-color:white;
+    padding:30px;
+    font-family: 'Fredoka One', cursive;
+
+
+}
+
+table {
+  color:white;
+  margin:auto;
+  /* border-collapse:collapse; */
+}
+
+a {
+  color:white;
+}
+ td {
+   background-color:white;
+   font-size:16pt;
+   color:pink;
+   
+
+ }
+ th {
+   padding:5px 10;
+   background-color: #D3EEEE;
+   font-size:18pt;
+
+ }
+  tr {
+    font-size:14pt;
+    border-bottom: 2px pink;
+    
+    
+
+  }
+th:hover {
+  color:salmon;
+}
+td:hover {
+  background-color:;
+  font-size:18pt;
+  transition:0.3s;
+}
+th,td {
+  padding:5px;
+}
+#vanilla {
+  color: moccasin;
+}
+
+
+#strawberry {
+  color:pink;
+}
+
+#chocolate{
+  color:chocolate;
+}
+#oreo {
+  color:black;
+}
+
+
+/* Site Styling */
+
+header {
+  background:radial-gradient(mistyrose, moccasin);
+  padding:20px;
+  background-position: left top;
+  background-size:200% 200%;
+  color:black;
+  display:flex;
+justify-content: space-between;
+align-items:center;
+}
+
+nav {
+background-color:white;
+}
+footer {
+
+}
+#icecream {
+  width:100px;
+  
+  
+  
+}
+
+nav ul {
+  color:pink;
+  list-style-type: none;
+  display:flex;
+  padding:20px;
+  margin:auto;
+  
+}
+nav li {
+  color:pink;
+  margin-right:175px;
+  list-style-type:none;
+ 
+  
+}
+nav a {
+  color:pink;
+  text-decoration:none;
+  
+}
+nav a:hover {
+  color:white;
+  background-color:pink;
+  transition: 0.3s;
+}
+main {
+  padding:100px;
+}
+
+footer {
+  color:white;
+  display:flex;
+  align-items:center;
+
+}
+#qr {
+  width:50px;
+
+}
+#qr:hover {
+  color:hotpink;
+  transition:0.3s;
+}
+footer ion-icon {
+  width:100px;
+  height:100px;
+  padding:20px;
+}
+#git {
+  width:50px;
+  height:50px;
+}
+#git:hover {
+  color:hotpink;
+  transition:0.3s;
+
+}
+#icecream:hover {
+  color:hotpink;
+}

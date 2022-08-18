@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@600&family=Fredoka+One&display=swap');
+
+
+
+
+body{
+  margin:0;
+}
+
+.header-top {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:20px;
+    background:pink;
+    font-family:'DynaPuff';
+}
+.header-item {
+  flex:1;
+  
+}
+.right-text {
+  text-align: right;
+}
+
+nav {
+  background:coral;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 0px;
+  font-family:'DynaPuff';
+  font-style:italic;
+
+}
+
+
+
+nav ul {
+  padding-left:0px;
+  margin:0;
+  display:flex;
+}
+
+nav li {
+  list-style-type:none;
+  padding:10px 20px;
+  
+}
+
+.nav-right ul {
+  flex-direction:column;
+  text-align:right;
+}
+
+.nav-right li {
+  padding:0px 20px;
+}
+
+footer {
+  background:blanchedalmond;
+  display:flex;
+  justify-content: space-between;
+}
+
+.footer-right, .footer-left {
+  height:500px;
+  border: 2px solid black;
+}
+
+.footer-left {
+  flex:1;
+}
+
+.footer-right {
+  flex:2;
+}
+
+/* GRID CODE */
+
+.grid-wrapper {
+  display:grid;
+  grid-template-columns: auto auto auto auto ;
+  /* border: 2px solid gold; */
+  width:80%;
+  margin: 10%auto;
+  column-gap:10px;
+  row-gap:10px;
+  /* grid-gap=shortcut for column & row gap */
+}
+
+.grid-item {
+    background:coral;
+    /* height:200px; */
+    border: 2px solid violet;
+    display:flex;
+    align-items:center;
+}
+
+.grid-item img {
+  width:100%;
+}
+
+/* Bootstrap Code*/
+.row .col {
+  background-color: pink;
+}
+
+.col img {
+  width:100%;
+}
+ 
+@media only screen and (min-width:1000px) {
+  body {
+    background-color:blanchedalmond;
+  }
+}
+
+@media screen and (max-width:1000px){
+  .grid-wrapper {
+    grid-template-columns: auto auto auto;
+  }
+}
+@media screen and (max-width:700px) {
+  .grid-wrapper {
+    grid-template-columns:auto auto;
+  }
+}
