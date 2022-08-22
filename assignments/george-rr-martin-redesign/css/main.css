@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+body {
+  background-color: black;
+  background-image: url("../assets/2-headed-dragon.png");
+  font-family: "Aboreto";
+  background-size:100%;
+  background-position: top center;
+  background-repeat:no-repeat;
+  
+}
+
+
+header {
+font-family:"Aboreto";
+color:red;
+display:flex;
+justify-content:center;
+align-items:center;
+
+}
+
+nav {
+padding:60px;
+  font-family:Aboreto;
+  margin-top:300px;
+  
+
+}
+nav ul {
+  /* margin:0px; */
+padding-left:0;
+display:flex;
+justify-content:space-between;
+width:110%;
+
+}
+nav li {
+list-style-type:none;
+color:red;
+}
+nav a {
+  text-decoration:none;
+}
+nav li:hover {
+  color:gold;
+  
+}
