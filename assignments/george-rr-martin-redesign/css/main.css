@@ -59,7 +59,7 @@ nav li:hover {
 
 .scroll {
 background-image:url("../assets/scroll-wallpaper.jpeg");
-background-size:cover;
+background-size:contain;
 background-repeat:no-repeat;
 width:100%;
 min-height:1000px;
@@ -67,7 +67,7 @@ display:flex;
 flex-wrap:wrap;
 justify-content:center;
 align-items:center;
-padding:30px 30px 30px 30px;
+padding:10px 10px 10px 10px;
 }
 
 h2 {
@@ -79,9 +79,7 @@ h2 {
 }
 
 
-footer {
 
-}
 
 .spacer {
   height:300px;
