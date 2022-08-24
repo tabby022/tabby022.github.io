@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap');
 body {
   background-color:black;
-  background-image: url("../assets/2-headed-dragon.png");
+  background-image: url("../assets/2-headed-dragon-masked.png");
   font-family: "Aboreto";
-  background-size:95%;
+  background-size:100%;
   background-position:top center;
   background-repeat:no-repeat;
-  
+  margin:0px;
   
   
 }
@@ -17,7 +17,7 @@ header {
   padding:auto;
   font-family:"Cinzel";
 font-size:12pt;
-color:red;
+color:rgb(178, 34, 34);
 display:flex;
 justify-content:center;
 align-items:center;
@@ -29,7 +29,7 @@ nav {
   justify-content:space-between;
   align-items:center;
   font-family:"Cinzel";
-  margin-top:150px;
+  margin-top:180px;
   
 
 }
@@ -43,22 +43,28 @@ width:140%;
 }
 nav li {
 list-style-type:none;
-color:red;
+color:rgb(178, 34, 34);
 font-family:"Cinzel";
 font-size:8pt;
+border-radius:0px 0px 10px 10px;
 }
 nav a {
   text-decoration:none;
 }
 nav li:hover {
-  color: rgb(255,150,0);
-  transition:0.3s;
+  color:white;
+  transition:0.4s;
   font-size:10pt;
+  background-color:rgb(178, 34, 34);
+  border-radius:0px 0px 0px 0px;
+  
   
 }
 
-.top-left-image {
-  width:50px;
+.top-image img {
+  
+  width:100%;
+  margin-top:20%;
 }
 
 
@@ -72,17 +78,19 @@ display:flex;
 flex-wrap:wrap;
 justify-content:center;
 align-items:center;
-padding:25px;
-margin-top:100px;
+padding:20px;
+margin-top:80px;
 box-sizing:border-box;
 }
 
-/* h2 {
-  color:white; 
-} */
+.scroll-header h2 {
+  text-align:center;
+  font-weight: bold;
+}
 
 .scroll>img {
   width:250px;
+
 }
 
 
@@ -98,8 +106,29 @@ box-sizing:border-box;
 }
 
 .scroll-content{
-  text-align:center;
+  text-align:left;
+
 }
+
+.scroll-content h3 {
+  text-align:center;
+  /* color:rgb(178, 34, 34); */
+  color:rgb(178, 34, 34);
+  text-decoration: underline;
+  
+
+}
+
+.scroll-content p {
+  text-align:center;
+  padding:10px;
+}
+
+
 main{
   color:black;
+  
+}
+.bottom-image-left img {
+  width:10%px;
 }
