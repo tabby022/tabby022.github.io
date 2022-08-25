@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap');
 body {
+ 
   background-color:black;
   background-image: url("../assets/2-headed-dragon-masked.png");
   font-family: "Aboreto";
@@ -22,6 +23,7 @@ display:flex;
 justify-content:center;
 align-items:center;
 
+
 }
 
 nav {
@@ -29,7 +31,10 @@ nav {
   justify-content:space-between;
   align-items:center;
   font-family:"Cinzel";
-  margin-top:180px;
+  margin-top:160px;
+  
+
+  
   
 
 }
@@ -61,15 +66,16 @@ nav li:hover {
   
 }
 
-.top-image img {
-  
-  width:100%;
+.fire-image img {
+  /* background-image:url("./assests/fire.jpeg"); */
+  width:10%;
   margin-top:20%;
 }
 
 
 .scroll {
 background-image:url("../assets/scroll-wallpaper.png");
+/* background-image:url("../assets/george-martin-logo.png") */
 background-size:cover;
 background-repeat:no-repeat;
 width:100%;
@@ -78,8 +84,8 @@ display:flex;
 flex-wrap:wrap;
 justify-content:center;
 align-items:center;
-padding:20px;
-margin-top:80px;
+padding:10px;
+margin-top:20px;
 box-sizing:border-box;
 }
 
@@ -93,7 +99,9 @@ box-sizing:border-box;
 
 }
 
-
+.scroll-content img{
+  width:20px;
+}
 
 
 .spacer {
@@ -121,14 +129,52 @@ box-sizing:border-box;
 
 .scroll-content p {
   text-align:center;
-  padding:10px;
 }
 
+.card {
+  margin:20px 0px;
+  border:2px solid rgb(178, 34, 34);
+  padding:50px;
+}
 
-main{
+.logo-left img {
+  width:30px;
+  display:flex;
+  justify-content:left;
+  align-items:left;
+}
+.logo-right img {
+width:30px;
+display:flex;
+  justify-content:right;
+  align-items:right;
+}
+
+main {
   color:black;
   
 }
-.bottom-image-left img {
-  width:10%px;
+
+.red-image img {
+  width:100%;
 }
+
+.grey-image img {
+  width:100%;
+}
+.top-images{
+  display:flex;
+  margin-top:30px;
+}
+.red-image{
+  flex:1
+}
+.grey-image{
+  flex:1;
+}
+
+.bottom-image img{
+  width:100%;
+  
+}
+
