@@ -3,7 +3,6 @@
 body {
  
   background-color:black;
-  background-image: url("../assets/2-headed-dragon-masked.png");
   font-family: "Aboreto";
   background-size:100%;
   background-position:top center;
@@ -15,9 +14,9 @@ body {
 
 
 header {
-  padding:auto;
+  padding:15px;
   font-family:"Cinzel";
-font-size:12pt;
+font-size: bold 12pt;
 color:rgb(178, 34, 34);
 display:flex;
 justify-content:center;
@@ -25,25 +24,42 @@ align-items:center;
 
 
 }
-
+header h1{
+  text-align:center;
+}
+@media screen and (min-width: 480px) {
+  .text {
+    font-size: 16px;
+  }
+}
 nav {
   display:flex;
   justify-content:space-between;
   align-items:center;
   font-family:"Cinzel";
-  margin-top:160px;
-  
-
-  
-  
+  margin-top:30px;
+  position:sticky;
+  top:0px;
+  background-color:black;
 
 }
+
+.navbar {
+  width:100%;
+  height:80px;
+  padding:10px;
+  max-width:800px;
+  margin:auto;
+}
+
+
+
 nav ul {
   /* margin:0px; */
 display:flex;
 justify-content:space-between;
 align-items:center;
-width:140%;
+padding-left:0px;
 
 }
 nav li {
@@ -52,13 +68,13 @@ color:rgb(178, 34, 34);
 font-family:"Cinzel";
 font-size:8pt;
 border-radius:0px 0px 10px 10px;
+transition:0.4s;
 }
 nav a {
   text-decoration:none;
 }
 nav li:hover {
   color:white;
-  transition:0.4s;
   font-size:10pt;
   background-color:rgb(178, 34, 34);
   border-radius:0px 0px 0px 0px;
@@ -66,20 +82,11 @@ nav li:hover {
   
 }
 
-.fire-image img {
-  /* background-image:url("./assests/fire.jpeg"); */
-  width:10%;
-  margin-top:20%;
-}
-
-
 .scroll {
 background-image:url("../assets/scroll-wallpaper.png");
-/* background-image:url("../assets/george-martin-logo.png") */
 background-size:cover;
 background-repeat:no-repeat;
 width:100%;
-/* min-height:1000px; */
 display:flex;
 flex-wrap:wrap;
 justify-content:center;
@@ -124,7 +131,10 @@ box-sizing:border-box;
   color:rgb(178, 34, 34);
   text-decoration: underline;
   
+}
 
+.scroll-content h3:hover {
+  font-style:italic;
 }
 
 .scroll-content p {
@@ -137,11 +147,19 @@ box-sizing:border-box;
   padding:50px;
 }
 
+.logos{
+  display:flex;
+  justify-content:space-between;
+  margin-top:10px;
+}
+
+
+
 .logo-left img {
   width:30px;
   display:flex;
-  justify-content:left;
-  align-items:left;
+  justify-content:center;
+  align-items:center;
 }
 .logo-right img {
 width:30px;
@@ -164,17 +182,71 @@ main {
 }
 .top-images{
   display:flex;
-  margin-top:30px;
+  margin:auto;
+  justify-content:space-around;
+  background:silver;
+  
 }
 .red-image{
-  flex:1
+  flex:1;
+  max-width:400px;
+
 }
 .grey-image{
   flex:1;
+  max-width:400px;
+
 }
 
 .bottom-image img{
   width:100%;
+  margin-top:40px;
   
 }
 
+footer{
+  color:white;
+  text-align:center;
+  font-size:8px;
+  justify-content:space-between;
+  align-items:center;
+  
+}
+
+.banner img{
+  width:100%;
+}
+.banner {
+  margin:auto;
+  height:600px;
+  background-image:url("../assets/2-headed-dragon-masked.png");
+  background-size:100%;
+  background-position:center 5%;
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+}
+
+@media screen and  (min-width:800px){
+  nav li {
+    font-size:18pt;
+  }
+  nav li:hover {
+    font-size:22pt;
+  }
+}
+@media screen and (max-width:800px){
+  .banner {
+    height:50vw;
+  }
+}
+@media screen and (min-width:1000px){
+  .banner {
+    background-position:center -100px;
+  }
+}
+@media screen and (min-width:1350px){
+  .banner{
+    height:750px;
+    background-position:center -200px;
+  }
+}
