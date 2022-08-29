@@ -17,7 +17,7 @@
  }
 
 header {
-  background-color:black;
+  background-color:#0D0D0D;
   justify-content: space-between;
   text-align:center;
   width: auto;
@@ -55,6 +55,8 @@ nav {
 nav a {
   color:inherit;
   text-decoration:none;
+  display:block;
+  padding:20px;
 
 }
  nav ul {
@@ -68,15 +70,24 @@ nav a {
 nav li {
 list-style-type:none;
 display:inline;s
-padding:20px;
 border-radius:0px 0px 10px 10px
 transition:0.3s;
+line-height:1em;
+height:90px;
+flex:1;
+text-align:center;
+text-decoration:none;
+text-decoration-style:wavy;
+text-decoration-color:transparent;
+background:linear-gradient(to bottom,light pink);
+border-bottom:10px solid pink;
 
 }
 nav li:hover {
 background-color:none;
 color:#EF5F89;
 font-size:16pt;
+text-decoration:underline;
 
 }
 
@@ -101,13 +112,15 @@ padding:20px;
 
 #home-icon {
   width:80%;
+  transition:0.5s;
 }
 
 .hero {
   display:flex;
   align-items:center;
   justify-content:center;
-  height:100vh;
+  
+  
 }
 
 .top-icon {
@@ -119,7 +132,7 @@ padding:20px;
 
 .hero:hover {
   color:pink;
-  transition:0.3s;
+  transition:0.5s;
 }
 
 
