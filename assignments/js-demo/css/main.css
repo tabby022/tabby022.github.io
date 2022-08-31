@@ -19,9 +19,13 @@ header {
 display:flex;
 justify-content:space-between;
 align-items:center;
+background-color:chocolate;
+padding: 5px 25px;
+
 }
 .header-left {
   font-family:"Lobster";
+  font-size:18pt;
 }
 
 .header-right img{
@@ -37,11 +41,19 @@ nav {
 nav ul {
   display:flex;
   margin:0;
-  padding-left:0;
+  padding-left:0px;
+  justify-content:space-around;
+  
 
 }
 nav li {
   list-style-type:none;
+  display:inline;
+  flex:1;
+  text-align:center;
+  padding:20px;
+  border-radius:0px 0px 10px 10px;
+  transition:0.3s;
 }
 
 nav a {
@@ -55,12 +67,18 @@ color:#e1a177;
 /* CONTENT CSS */
 main {
 
-  height:500px;
+  height:auto;
 
 }
 /* FOOTER CSS */
 footer{
 display:flex;
+background-color:blanchedalmond;
+display:flex;
+justify-content:space-between;
+align-items:center;
+border-color:#e1a177;
+
 }
 .footer-left img{
   width:100%;
@@ -73,13 +91,22 @@ flex:1;
 
 .footer-center {
 flex:1;
+color:white;
 }
 .footer-right {
 flex:1;
+color:white;
 
 }
 
+.footer-center a {
+  color:white;
+  
+}
 
+.footer-right a {
+  color:white;
+}
 
 
 
@@ -95,4 +122,29 @@ flex:1;
 }
 .reveal {
   display:block;
+}
+
+#date-element {
+  text-align:center;
+}
+
+.time-wrapper {
+  background-color:#e1a177;
+  height:400px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  color:white;
+  background-image: url("../assets/photos/coffee2.jpg");
+  background-size:cover;
+  background-position:center 80%;
+  background-attachment:;
+  
+}
+
+.time-wrapper h4{
+  font-size:4rem;
+  text-shadow: 2px 3px 0px black;
+  font-family:"Lobster";
 }
