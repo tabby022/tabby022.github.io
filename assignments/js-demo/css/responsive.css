@@ -1,0 +1,12 @@
+header h1{
+    text-align:center;
+  }
+  @media screen and (min-width: 480px) {
+    .text {
+      font-size: 16px;
+    }
+
+    @media screen and  (min-width:800px){
+        nav li {
+          font-size:16pt;
+        }

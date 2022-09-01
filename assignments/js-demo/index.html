@@ -3,7 +3,9 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./css/main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Foxtail Farms - Your New Favorite Produce.</title>
+
   </head>
   
   <body>
@@ -12,7 +14,7 @@
   
   <header>
 
-<div class="header-left">
+<div class="header-left" data-aos="fade-right">
 
 <h1>Foxtail Farms</h1>
 
@@ -55,10 +57,10 @@
 <main>
   <!-- MAIN CONTENT WRAPPER -->
 
-  <div class="time-wrapper">
+  <div class="time-wrapper" data-aos="zoom-in-up">
     <div class="time-wrapper-internal"></div>
-    <h4>Our Big News</h4>
-    <p>Coming Soon🥳</p>
+    <h4>Coming Soon</h4>
+    <p>☕️From Farm to Cup☕️</p>
      <p id="date-element"></p>
     
     </div>
@@ -68,9 +70,34 @@
     <button class="about-button" onclick="toggleContent()">About</button>
     <p class="about-text" id="js-demo">
 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, et mollitia dolore reiciendis in error! Perspiciatis autem sequi atque deserunt sint aspernatur ipsa culpa, assumenda, suscipit praesentium nobis eius consectetur!
-
     </p>
   </div>
+<div class="cafe">
+  <h2>Cafe Culture</h2>
+  </div>
+<hr>
+<div class="bb">
+<h3>Brilliant Beans</h3>
+<h4>Where we get our beans</h4>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nisi voluptates delectus ut vitae dolores voluptate sit tenetur harum ab praesentium assumenda, minima nihil pariatur aliquid quam ullam. Sequi, iste? ipsum dolor sit amet consectetur adipisicing elit. Sed nisi voluptates delectus ut vitae dolores voluptate sit tenetur harum ab praesentium assumenda, minima nihil pariatur aliquid quam ullam. Sequi, iste ipsum dolor sit amet consectetur adipisicing elit. Sed nisi voluptates delectus ut vitae dolores voluptate sit tenetur harum ab praesentium assumenda, minima nihil pariatur aliquid quam ullam. Sequi, iste ipsum dolor sit amet consectetur adipisicing elit. Sed nisi voluptates delectus ut vitae dolores voluptate sit tenetur harum ab praesentium assumenda, minima nihil pariatur aliquid quam ullam. Sequi, iste</p>
+</div>
+<hr>
+
+
+<div class="think">
+<h3>Think Outside The Cup</h3>
+<h4>What makes our coffee the best</h4>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id dicta nobis officia cumque voluptate atque. Tenetur omnis hic quam eligendi ea, sint possimus quis, tempora animi distinctio praesentium aliquam doloremque. ipsum dolor sit amet consectetur adipisicing elit. Sed nisi voluptates delectus ut vitae dolores voluptate sit tenetur harum ab praesentium assumenda, minima nihil pariatur aliquid quam ullam. Sequi, iste ipsum dolor sit amet consectetur adipisicing elit. Sed nisi voluptates delectus ut vitae dolores voluptate sit tenetur harum ab praesentium assumenda, minima nihil pariatur aliquid quam ullam. Sequi, iste ipsum dolor sit amet consectetur adipisicing elit. Sed nisi voluptates delectus ut vitae dolores voluptate sit tenetur harum ab praesentium assumenda, minima nihil pariatur aliquid quam ullam. Sequi, iste ipsum dolor sit amet consectetur adipisicing elit. Sed nisi voluptates delectus ut vitae dolores voluptate sit tenetur harum ab praesentium assumenda, minima nihil pariatur aliquid quam ullam. Sequi, iste</p>
+</div>
+
+
+
+
+
+
+
+
+
 
 
 </main>
@@ -130,7 +157,7 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, et mollitia d
   var b = document.getElementById("js-demo");
     b.classList.toggle("reveal");
   }
-
+// Countdown code//
 var datePg = document.getElementById("date-element");
 console.log(datePg);
 
@@ -142,5 +169,9 @@ revealDate();
 
 </script>
 <script src="./js/countdown.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
   </body>
 </html>
