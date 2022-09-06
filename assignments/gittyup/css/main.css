@@ -39,17 +39,18 @@ color:gold;
 .content {
   background-color:white;
   padding:30px;
-  border-left: 3px solid RebeccaPurple;
+  border-left: 1px solid RebeccaPurple;
 }
 .footer {
   background-color:white;
-  height:200px;
-  border-top:3px solid RebeccaPurple;
-  border-radius: 0px 0px 10px 10px
+  height:80px;
+  border-top:0.5px solid RebeccaPurple;
+  border-radius: 0.9px 0.9px 10px 10px
 }
 
 .main{
-  border-radius: 15px;
-  border: 5px solid RebeccaPurple;
+  border-radius: 10px;
+  /* border: 1px solid RebeccaPurple; */
   box-shadow: -7px -7px 3px 3px Plum;
+  
 }
