@@ -1,10 +1,171 @@
-body{
-    background-color: black;
-}
-header{
+body {
+    margin:0px;
     background-color:black;
+    font-family: "Helvetica";
+    color:white;
+    box-sizing:border-box;
+
+
+}
+
+header {
+background-color:black;
+justify-content: space-between;
+text-align:center;
+width: auto;
+height:25%;
+
+/* border-bottom: 3px solid light pink; */
+
+}
+
+
+header h1 {
+font-size:60px;
+text-align:center;
+justify-content:center;
+
+}
+
+
+footer {
+display:flex;
+justify-content: center;
+
+
+}
+nav {
+
+
+}
+
+nav a {
+color:inherit;
+text-decoration:none;
+display:block;
+padding:20px;
+width:100%;
+nav a
+
+}
+nav ul {
+ padding-left:0px;
+ display:flex;
+ justify-content:center;
+ margin:0px;
+ align-items:center;
+}
+
+nav li {
+list-style-type:none;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:0px 0px 10px 10px
+transition:0.3s;
+line-height:1em;
+height:90px;
+flex:1;
+text-align:center;
+text-decoration:none;
+text-decoration-style:wavy;
+text-decoration-color:transparent;
+/* background:linear-gradient(to bottom,light pink); */
+border-top:10px solid pink;
+border-bottom:10px solid pink;
+
+
+}
+nav li:hover {
+background-color:white;
+color:#ef5f89;
+font-size:16pt;
+/* text-decoration:underline; */
+border-radius: 20px 20px 20px 20px;
+
+
+}
+
+#layer_1:hover {
+color:#ef5f89;
+}
+
+h1:hover{
+color:#ef5f89;
+}
+
+
+#layer_2 {
+display:flex;
+padding:20px;
+}
+
+#layer_1-2 {
+display:flex;
+padding:20px;
+}
+
+#home-icon {
+width:80%;
+transition:0.5s;
+}
+
+.hero {
+display:flex;
+align-items:center;
+justify-content:center;
+width:100%;
+max-width:600%;
+height:100px;
+position:relative;
+top:200px;
+}
+
+.top-icon {
+display:flex;
+align-items:left;
+justify-content:left;
+height:20vh;
+}
+
+.hero:hover {
+color:#ef5f89;
+transition:0.5s;
+}
+
+main {
+flex-direction: column;
+}
+
+footer {
+display:flex;
+justify-content:center;
+align-items:center;
+position:relative;
+bottom:0px;
+text-align:center;
+width:100%;
 }
 
 header svg{
     width:10%;
+    display:flex;
+    justify-content:left;
+    align-items:left;
+}
+.video-grid-wrapper{
+    display:grid;
+    grid-template-columns:auto auto;
+    grid-gap:20px;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+.video-grid-item video{
+    width:100%;
+}
+.video-grid-header{
+    margin-top:50px;
+}
+.carousel-header{
+    margin-bottom:50px;
 }
